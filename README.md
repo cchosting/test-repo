@@ -9,8 +9,8 @@ The cron runs every 24 hours and checks WHMCS installation at lab.chemicloud.com
 The active servers are all exported to "all-servers" file.
 At the tools machine level, we sort the "all-servers" file and export the other 2 files:
 
-a. vps-servers ( all servers that start with "cvps" )
-b. shared-servers ( all server that start with "rs" )
+1. vps-servers ( all servers that start with "cvps" )
+2. shared-servers ( all server that start with "rs" )
 
 These files are updated every 24 hours.
 
